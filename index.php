@@ -11,40 +11,9 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
-        <div class="container">
-            <a href="index.html" class="navbar-brand"><img src="img/logo.png"  alt="" class="w-25 position-relative"/></a>
-            <button 
-            class="navbar-toggler position-absolute topBottom"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu" >
-       <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Donation.html" class="nav-link">Donation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Blog.html" class="nav-link">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="Volunteer.html" class="nav-link">Volunteer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="AboutUs.html" class="nav-link">About Us</a>
-                    </li>
-                    <button class="btn btn-success">Login</button>
-                    
-
-                </ul>
-            </div>
-        </div>
-    </nav>
+   <?php
+ include 'Navbar.php';
+   ?>
 
     <section class=" bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div class="container">
