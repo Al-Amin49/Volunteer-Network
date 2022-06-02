@@ -13,34 +13,34 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
         <div class="container">
-            <a href="index.html" class="navbar-brand"><img src="img/logo.png"  alt="" class="w-25 position-relative"/></a>
+            <a href="../Home/" class="navbar-brand"><img src="../assets/img/logo.png"   alt="" class="w-25 "/></a>
             <button 
-            class="navbar-toggler position-absolute topBottom"
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navmenu" >
        <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav mr-5">
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link fw-bold">Home</a>
+                        <a href="../Home/" class="nav-link fw-bold">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="Donation.php" class="nav-link fw-bold">Donation</a>
+                        <a href="../Donation/" class="nav-link fw-bold">Donation</a>
                     </li>
                     <li class="nav-item">
-                        <a href="Blog.php" class="nav-link fw-bold">Blog</a>
+                        <a href="../Blog/" class="nav-link fw-bold">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="Volunteer.php" class="nav-link fw-bold">Volunteer</a>
+                        <a href="../Volunteer/" class="nav-link fw-bold">Volunteer</a>
                     </li>
                     <li class="nav-item">
-                        <a href="AboutUs.php" class="nav-link fw-bold">About Us</a>
+                        <a href="../AboutUs/" class="nav-link fw-bold">About Us</a>
                     </li>
 
                     <li class="nav-item">
-                    <a href="Login.php" class=" nav-link button">Login</a>
+                    <a href="../Login/" class=" nav-link button">Login</a>
                     </li>
             
                                         

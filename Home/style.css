@@ -2,6 +2,8 @@ body::before{
     display:block;
     content:'';
     height:60px;
+    font-family: 'Montserrat', sans-serif; 
+   font-family: 'Open Sans', sans-serif;
 }
 
 a.button {
@@ -15,7 +17,13 @@ a.button {
 .title{
     color:salmon;
 }
-.topBottom{
-    top:22%;
-    right:0;
+
+
+.img-responsive{
+    max-width:100%;
+}
+
+
+.color{
+    color:salmon;
 }
