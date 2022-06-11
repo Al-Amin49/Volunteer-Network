@@ -40,7 +40,7 @@
                     </li>
 
                     <li class="nav-item">
-                    <a href="../Login/" class=" nav-link button">Login</a>
+                    <a href="../auth/" class=" nav-link button">Login</a>
                     </li>
             
                                         
@@ -50,6 +50,19 @@
             </div>
         </div>
     </nav>
+
+    <?php
+    if(isset($_GET['msg'])){
+        ?>
+        <div class="alert alert-success" role="alert">
+        <?php echo $_GET['msg']; ?>
+
+        </div>
+<?php
+    }
+
+
+?>
 
   
            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

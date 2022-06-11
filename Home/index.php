@@ -254,7 +254,7 @@
                
                 </section>
 
-                <footer class="bg-dark mt-5 p-5">
+                <!-- <footer class="bg-dark mt-5 p-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-3">
@@ -284,8 +284,9 @@
                             </div>
                         </div>
                     </div>
-                </footer>
-                <p class="text-center ">&copy; Volunteer network All Rights Reserved</p>
+                    <p class="text-center ">&copy; Volunteer network All Rights Reserved</p>
+                </footer> -->
+               
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

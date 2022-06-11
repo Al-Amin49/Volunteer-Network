@@ -1,0 +1,29 @@
+body::before{
+    display:block;
+    content:'';
+    height:60px;
+    font-family: 'Montserrat', sans-serif; 
+   font-family: 'Open Sans', sans-serif;
+}
+
+a.button {
+    background-color:salmon;
+    color:white;
+    font-weight: bold;
+    padding:7px 11px;
+    border-radius: 10px;
+  text-decoration: none;
+}
+.title{
+    color:salmon;
+}
+
+
+.img-responsive{
+    max-width:100%;
+}
+
+
+.color{
+    color:salmon;
+}

@@ -15,7 +15,7 @@
 <body>
     <!-- Navbar -->
      <?php
-  include '../partials/Navbar.php';
+        include '../partials/Navbar.php';
     ?> 
     <div class="container ">
     <div class="form-modal ">
@@ -30,18 +30,17 @@
             <input type="text" placeholder="Enter email or username"/>
             <input type="password" placeholder="Enter password"/>
             <button type="button" class="btn login">login</button>
-            <p><a href="javascript:void(0)">Forgotten account</a></p>
             <hr/>
-
         </form>
     </div>
 
-    <div id="signup-form">
-        <form>
-            <input type="email" placeholder="Enter your email"/>
-            <input type="text" placeholder="Choose username"/>
-            <input type="password" placeholder="Create password"/>
-            <button type="button" class="btn signup">create account</button>
+    <div id="signup-form" >
+        <form action="_regi.php" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required/>
+            <input type="text" name="username" placeholder="Choose username" required/>
+            <input type="password" name="password" placeholder="Enter password" required/>
+            <input type="password" name="cpassword" placeholder="Confirm password" required/>
+            <button type="submit" class="btn signup">create account</button>
             <p>Clicking <strong>create account</strong> means that you are agree to our <a href="javascript:void(0)">terms of services</a>.</p>
             <hr/>
            
